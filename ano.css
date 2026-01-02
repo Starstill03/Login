@@ -1,0 +1,19 @@
+:root{
+    --color-purple-50: #7c3acd;
+    --color-purple-100: #a855f7;
+    --color-purple-200: #bf46ef;
+
+    --color-gradient: linear-gradient(90deg,var(--color-purple-50),var(--color-purple-100),var(--color-purple-200));
+}
+*{
+  background: var(--color-gradient);
+}
+main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    height: 100vh;
+}
